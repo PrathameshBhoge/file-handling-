@@ -6,6 +6,7 @@ import java.security.PermissionCollection;
 public class File1 {
     public static void main(String[] args) {
         String srg = "IO Package\\NewFile.txt";
+
         FilePermission file1 = new FilePermission("IO Package\\-", "read");
         PermissionCollection permission = file1.newPermissionCollection();
         permission.add(file1);
