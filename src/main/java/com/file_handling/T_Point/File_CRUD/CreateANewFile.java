@@ -12,7 +12,6 @@ public class CreateANewFile {
             }else{
                 System.out.println("file created");
             }
-
         }catch(Exception io){
                 io.printStackTrace();
         }
