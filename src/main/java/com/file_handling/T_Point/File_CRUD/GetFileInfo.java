@@ -5,7 +5,6 @@ import java.io.File;
 public class GetFileInfo {
     public static void main(String[] args) {
         File file = new File("NewFile.txt");
-
         if(file.exists()){
             System.out.println("Is File is writable - "+ file.canWrite());
 
